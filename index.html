@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Uzair</title>
+<style>
+body{font-family:Arial;margin:0;background:#f4f4f4;text-align:center}
+header{background:#222;color:#fff;padding:30px}
+img{width:120px;height:120px;border-radius:50%;margin-top:10px}
+section{padding:20px}
+.card{background:#fff;padding:15px;margin:10px;border-radius:10px;box-shadow:0 2px 5px #ccc}
+button{padding:10px 20px;background:#222;color:#fff;border:none;border-radius:5px}
+</style>
+</head>
+<body>
+<img id="myPic" src="https://via.placeholder.com/120" alt="photo" style="width:120px;height:120px;border-radius:50%">
+<br><br>
+<input type="file" accept="image/*" onchange="loadPhoto(event)">
+<hr />
+</header>
+</header>
+<div style="text-align:center; padding:15px;">
+  <h1 style="margin:0; font-size:32px; font-weight:bold;">Muhammad Uzair</h1>
+  <p style="margin:5px 0 0 0; font-size:18px; font-weight:bold; color:#555;"</p>
+</div>
+</header>
+
+<section>
+<div class="card">
+<h2>About Me</h2>
+<p>Assalam-o-Alaikum! I am a professional Assignment writer and Digital marketer. I provide Assignment writing services and help businesses grow with effective digital marketing Ads</p>
+</div>
+
+<div class="card">
+<h2>My Work</h2>
+<p> 
+<br>1.Assignments writing services (School, College, University)<br>2.To make a CV (Simple + Professional)<br>3.Digital Marketing <br />Facebook, Instagram, Tik Tok, Google Ads <br />4. Designing Services. ( logo design, wedding card, shop card.</p>
+</div>
+<!-- 1. Order Form -->
+<div style="background:#fff;padding:20px;margin:15px;border-radius:15px;text-align:center;<box-789743650524s789743650524></box-789743650524s789743650524>hadow:0 2px 5px #ccc;">
+<h2>Order Now</h2>
+<p>Write your name and your work:</p>
+<input id="cname" placeholder="Your name" style="padding:10px;width:90%;margin:5px;border-radius:8px;border:1px solid #ccc"><br>
+<input id="cwork" placeholder="Your Work? (Assignment/Social media post/ Ad run/Logo design/CV)" style="padding:10px;width:90%;margin:5px;border-radius:8px;border:1px solid #ccc"><br><br>
+<button onclick="sendOrder()" style="padding:12px 20px;background:25D366;color:#fff;border:none;border-radius:8px;font-size:16px;">Contact on WhatsApp</button>
+</div>
+
+<script>
+function sendOrder(){
+  var n = document.getElementById('cname').value;
+  var w = document.getElementById('cwork').value;
+  var msg = "Assalam o Alikum! Mera naam " + n + " hai. Mujhe ye kaam karwana hai: " + w;
+  window.open("https://wa.me/923157565804?text=" + encodeURIComponent(msg));
+}
+</script>
+
+<!-- 2. Client Reviews -->
+<div style="background:#fff;padding:20px;margin:15px;border-radius:15px;text-align:center;box-shadow:0 2px 5px #ccc;">
+<h2>Client Reviews</h2>
+<p>⭐⭐⭐⭐⭐<br>"Muhammad Uzair, you completed my university assignment on time. Thank you very much!"
+<b>Abbas khan, Rawalpindi</b></p>
+<hr>
+<p>⭐⭐⭐⭐⭐<br>"Uzair, you made a professional CV for me and i got the  job. Thank you"<br><b>- Ahmed, Rawalpindi</b></p>
+<hr>
+<p>⭐⭐⭐⭐⭐ <br> "Muhammad uzair Run ads for me, which brought me many clients and increased my sales. Thank you" <br><b>- Niaz Ali Khan, Peshawar</b></p>
+<hr> 
+<p>⭐⭐⭐⭐⭐ <br> "Thank you very much, Muhammad Uzair. You completed my project in such a short time. I cannot thank you enough, because this project was very important to me." <b>Seo - Yeon from Korea</b>
+ <p>
+</div>
+<!-- Timing aur Fees -->
+<div style="background:#fff;padding:20px;margin:15px;border-radius:15px;text-align:center;box-shadow:0 2px 5px #ccc;">
+<h2>⏰ My work Timing</h2>
+<p><b>Monday to Friday:</b> Morning 9 To Evening 6 <br>
+<b>"20% discount for Friday clients":</p>
+<hr>
+<h2> Fees</h2>
+<p>
+📝 School Assignment: <b>400+ Rs </b><br>
+🎓 College / University Assignment: <b> 500+ Rs </b><br>
+📄 Professional CV: <b> 600+Rs </b><br>
+📢 Facebook / Instagram / Tik Tok Ads : <b>Baat cheet karke</b>
+</p>
+<p style="color:green;">"Please share the details of the work first, I will tell you the final price right away.".</p>
+</div>
+
+<div class="card">
+<h2>Contact Us</h2>
+<button onclick="alert('Shukriya!')"> <a href="https://wa.me/923157565804" style="padding:12px 20px;background:25D366;color:#fff;text-decoration:none;border-radius:8px;">Contact on WhatsApp</a> </button>
+</div>
+</section>
+
+</body>
+</html>
